@@ -1,0 +1,125 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "86f06ca00c4743b72049e76c14b9ce53",
+    "content-hash": "52583cbb9c48169fbc3f8f983aa9abe9",
+    "packages": [
+        {
+            "name": "paydunya/paydunya",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paydunya/paydunya-php-composer.git",
+                "reference": "bc010499749f50a26eaa2dc0cfdcc80611357b29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paydunya/paydunya-php-composer/zipball/bc010499749f50a26eaa2dc0cfdcc80611357b29",
+                "reference": "bc010499749f50a26eaa2dc0cfdcc80611357b29",
+                "shasum": ""
+            },
+            "require": {
+                "rmccue/requests": "^1.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Paydunya\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PAYDUNYA",
+                    "email": "paydunya@paydunya.com"
+                }
+            ],
+            "description": "PAYDUNYA PHP CLIENT",
+            "keywords": [
+                "Marchand en ligne",
+                "Mobile Payments",
+                "Orange Money",
+                "Paiement Sénégal",
+                "Passerelle de paiement en ligne",
+                "Plateforme de paiement en ligne Afrique",
+                "Sénégal",
+                "api",
+                "best payment gateway",
+                "client php",
+                "library",
+                "online payment gateway",
+                "paiement",
+                "paiement en ligne",
+                "paydunya",
+                "paydunya.com",
+                "payment gateway",
+                "payment gateway Africa",
+                "php client"
+            ],
+            "time": "2016-07-11 19:50:18"
+        },
+        {
+            "name": "rmccue/requests",
+            "version": "v1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rmccue/Requests.git",
+                "reference": "6aac485666c2955077d77b796bbdd25f0013a4ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rmccue/Requests/zipball/6aac485666c2955077d77b796bbdd25f0013a4ea",
+                "reference": "6aac485666c2955077d77b796bbdd25f0013a4ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Requests": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan McCue",
+                    "homepage": "http://ryanmccue.info"
+                }
+            ],
+            "description": "A HTTP library written in PHP, for human beings.",
+            "homepage": "http://github.com/rmccue/Requests",
+            "keywords": [
+                "curl",
+                "fsockopen",
+                "http",
+                "idna",
+                "ipv6",
+                "iri",
+                "sockets"
+            ],
+            "time": "2014-05-18 04:59:02"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
